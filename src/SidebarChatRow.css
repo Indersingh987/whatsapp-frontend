@@ -1,0 +1,24 @@
+.sidebarChatRow {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebarChatRow:hover {
+  background-color: #f6f6f6;
+}
+
+.sidebarChatRow__info {
+  margin-left: 20px;
+}
+
+.sidebarChatRow__info > h2 {
+  font-size: 20px;
+}
+
+.sidebarChatRow__info > p {
+  font-size: 12px;
+  font-weight: 200;
+  color: gray;
+}

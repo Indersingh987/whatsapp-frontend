@@ -1,0 +1,92 @@
+.chatWindow {
+  flex: 0.65;
+  display: flex;
+  flex-direction: column;
+}
+
+/* header */
+.chatWindow__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.chatWindow__header__left {
+  display: flex;
+  align-items: center;
+}
+
+.chatWindow__header__left > h2 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.chatWindow__header__left > h2 > p {
+  font-size: 12px;
+  font-weight: 200;
+  color: gray;
+}
+
+/* chatWindow body */
+.chatWindow__body {
+  flex: 1;
+  background: #ffffff;
+  overflow-y: scroll;
+  padding: 15px;
+}
+
+.chatWindow__message {
+  background: #ffffff;
+  width: fit-content;
+  padding: 5px 10px;
+  position: relative;
+  border-radius: 10px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.chatWindow__name {
+  position: absolute;
+  top: -15px;
+  font-size: x-small;
+  font-weight: 500;
+}
+
+.chatWindow__timestamp {
+  font-size: xx-small;
+  font-weight: 400;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.chat__received {
+  background-color: rgb(176, 223, 176);
+  margin-left: auto;
+}
+
+/* footer */
+.chatWindow__footer {
+  display: flex;
+  align-items: center;
+}
+
+.chatWindow__footer > form {
+  background-color: #ffffff;
+  flex: 1;
+  display: flex;
+}
+
+.chatWindow__footer > form > button {
+  display: none;
+}
+
+.chatWindow__footer > form > input {
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+  flex: 1;
+}
+.chatWindow__footer > form > input:focus {
+  outline: none;
+}
